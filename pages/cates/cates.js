@@ -1,11 +1,16 @@
 // pages/cates/cates.js
 Page({
+  
+  //在小程序中页面需要使用的数据
+
+
+  
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    school:'卢傲璇'
   },
 
   /**

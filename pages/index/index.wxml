@@ -32,7 +32,7 @@
     </navigator>
   </view>
   <view>
-    <navigator url="/pages/cates/cates?id=10&num=lax">
+    <navigator url="/pages/cates/cates">
       <image src="/assets/tb/微信图片_20250329213136.jpg" mode=""/>
       <text>功能二</text>
     </navigator>
