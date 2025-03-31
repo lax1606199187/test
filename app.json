@@ -1,0 +1,35 @@
+
+{
+  "entryPagePath": "pages/index/index",
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/cates/cates",
+    "pages/lax/lax"
+  ],
+  "window": {
+ "navigationBarTitleText": "卢傲璇的测试小程序",
+  "navigationBarBackgroundColor": "#CCE8CF",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#efefef"
+},
+"tabBar": {
+  "list": [
+    {
+    "text": "首页",
+    "pagePath": "pages/index/index",
+    "iconPath": "/assets/icons8-工作-48.png",
+    "selectedIconPath": "/assets/icons8-文件-49.png"
+    },
+    {
+    "text": "文件",
+    "pagePath": "pages/lax/lax",
+    "iconPath": "/assets/icons8-工作-48.png",
+    "selectedIconPath": "/assets/icons8-文件-49.png"
+    }
+  ]
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

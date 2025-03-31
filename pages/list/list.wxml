@@ -1,0 +1,17 @@
+<!--  bind:tap="abc" 绑定abc这个事件 事件在js文件中定义 -->
+<button type="primary" size="mini" bind:tap="abc">绑定事件</button>
+
+<!-- 在小程序中，input输入框默认没有边框，需要自己添加样式  -->
+<input type="text" bindinput="getInputValue"/>
+
+<view class="line"></view>
+
+<!-- 如果两个触发组件都是bind:tap,那么会出现事件冒泡，触发子组件的同事会触发父组件，所以可以修改子组件为catch:tap,就可以避免  -->
+<!-- <view class="catch" bind:tap="parentHandler">
+  <button catch:tap="btnHandler">按钮</button>
+</view> -->
+
+<view bind:tap="btnHandlers" data-id="1" data-name="lax">
+  <!-- 使用data-的形式进行事件传参  -->
+  <button bind:tap="btnHandler" data-id="2" data-name="xx">按钮</button>
+</view>

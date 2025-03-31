@@ -1,0 +1,98 @@
+<!-- view小程序提供的容器组件，可以直接当做div使用即可  -->
+<!-- 轮播图区域  -->
+<view class="swiper">
+  <!-- autoplay：自动轮播，interval：轮播间隔时长，indicator-dots:展示页数小圆点，indicator-color：小圆点的颜色，indicator-active-color：设置当前小圆点颜色,circular:最后一张结束直接到第一张   -->
+  <swiper autoplay="true" interval="2000" indicator-dots indicator-color="#fff" indicator-active-color="#CCE8CF" circular>
+    <swiper-item>
+      <image src="/assets/微信图片_20250329201812.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/微信图片_20250329201816.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/微信图片_20250329201821.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 公司信息 -->
+<view class="info">
+  <text><text class="iconfont icon-shouye"></text>升职加薪</text>
+  <text><text class="iconfont icon-zhanghu"></text>当上CEO</text>
+  <text><text class="iconfont icon-qunzu"></text>迎娶白富美</text>
+  <text><text class="iconfont icon-dianjiicon"></text>走上人生巅峰</text>
+  
+</view>
+<!-- 商品导航 -->
+<view class="goodnav">
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="/assets/微信图片_20250329201740.jpg" mode=""/>
+      <text>功能一</text>
+    </navigator>
+  </view>
+  <view>
+    <navigator url="/pages/cates/cates?id=10&num=lax">
+      <image src="/assets/tb/微信图片_20250329213136.jpg" mode=""/>
+      <text>功能二</text>
+    </navigator>
+  </view>
+  <view>
+    <navigator url="/pages/cates/cates?id=10&num=lax">
+      <image src="/assets/tb/微信图片_20250329213141.jpg" mode=""/>
+      <text>功能三</text>
+    </navigator>
+  </view>
+  <view>
+    <navigator url="/pages/cates/cates?id=10&num=lax">
+      <image src="/assets/tb/微信图片_20250329213215.jpg" mode=""/>
+      <text>功能四</text>
+    </navigator>
+  </view>
+  <view>
+    <navigator url="/pages/cates/cates?id=10&num=lax">
+      <image src="/assets/tb/微信图片_20250329213122.jpg" mode=""/>
+      <text>功能五</text>
+    </navigator>
+  </view>
+</view>
+<!-- 推荐商品 -->
+<view class="good-nav">
+  <scroll-view class="scroll-x" scroll-x>
+  <view>
+    <view class="good-item">
+      <image src="/assets/tb/微信图片_20250329231752.jpg" mode=""/>
+      <text>哈吉米一号</text>
+    </view>
+  </view>
+  <view>
+    <view class="good-item">
+      <image src="/assets/tb/微信图片_20250329231758.jpg" mode=""/>
+      <text>哈吉米二号</text>
+    </view>
+  </view>
+  <view>
+    <view class="good-item">
+      <image src="/assets/tb/微信图片_20250329231801.jpg" mode=""/>
+      <text>哈吉米三号</text>
+    </view>
+  </view>
+</scroll-view>
+</view>
+
+
+<!-- <scroll-view class="scroll-y" scroll-y>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+</scroll-view> -->
+
+<!-- src:图片的资源地址 ，mode:图片的裁剪模式  ,show-menu-by-longpress:开启长按图片功能,lazy-load:（上下三个屏幕）开启图片懒加载-->
+<!-- <image src="" mode="" show-menu-by-longpress lazy-load> </image> -->
+
+<!-- user-select：开启长按选择文本  space:开启实现文本多次空格-->
+<!-- <text user-select space="ensp">la   x</text> -->
+
+<!--在进行页面跳转时，需要再路径前面添加/,否这页面不跳转-->
+
+ 
