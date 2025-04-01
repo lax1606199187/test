@@ -1,1 +1,20 @@
+<!-- 如果要展示数据，需要在wxml中使用双大括号的形式进行包裹  -->
+
+<!-- 展示内容  -->
 <view>{{school}}</view>
+<view>{{obj.name}}</view>
+
+<!-- 绑定属性值  -->
+<view id="{{id}}">绑定属性值</view>
+
+<!--如果属性值是布尔值，也需要用双大括号选中-->
+<checkbox checked="{{ischecked}}"/>
+
+<view>{{num}}</view>
+<button bind:tap="updateNum">更新</button>
+
+<view class="line"></view>
+
+<view>{{userInfo.name}}</view>
+<view>{{userInfo.age}}</view>
+<button type="warn" bind:tap="updateUserInfo">修改对象类型</button>

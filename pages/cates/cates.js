@@ -10,7 +10,39 @@ Page({
    * 页面的初始数据
    */
   data: {
-    school:'卢傲璇'
+    id:2,
+    school:'卢傲璇',
+    ischecked:false,
+    num:26,
+    obj:{
+      name:"lax"
+    },
+    userInfo:{
+
+    },
+
+  },
+
+    //更新UserInfo
+    updateUserInfo(){
+      //新增单个/多个属性
+      this.setData({
+        //如果是给对象新增属性，可以将key写成数据路径的方式a.b.c
+        'userInfo.name':'lax',
+        'userInfo.age':'26'
+      })
+  },
+  
+  updateNum(){
+    //获取数据
+    //this.setData两个作用
+    //1.更新数据
+    //2.驱动视图（页面）视图
+    this.setData({
+      //key是要更新的数据
+      //value是要更新的值
+      num:this.data.num+1
+    })
   },
 
   /**
