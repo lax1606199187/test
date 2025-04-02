@@ -1,22 +1,11 @@
-// pages/test1/test1.js
+// pages/test2/test2.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    value:123,
-    ischecked:false,
-    numList:[1,2,3],
-    fruitList:[
-      {id:1,name:'lax', age:26},
-      {id:2,name:'Lax',age:15},
-      {id:3,name:'LAX',age:35}
-        ],
-    obj:{
-      name:"小明",
-      age:26
-    }
+    num:1
   },
 
   /**
