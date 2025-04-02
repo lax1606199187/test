@@ -5,7 +5,8 @@
     "pages/index/index",
     "pages/list/list",
     "pages/cates/cates",
-    "pages/lax/lax"
+    "pages/lax/lax",
+    "pages/test1/test1"
   ],
   "window": {
  "navigationBarTitleText": "卢傲璇的测试小程序",

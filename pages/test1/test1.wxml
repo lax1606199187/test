@@ -1,0 +1,20 @@
+<!-- 单项绑定：数据能影响页面，但是页面更新不能影响数据  -->
+<!-- <input type="text" value="{{value}}" /> -->
+
+<!-- <input type="text" model:value="{{value}}" /> -->
+
+<!-- 如果需要获取复选框的选中效果，需要给checked添加model  -->
+<!-- <checkbox model:checked="{{ischecked}}"/>是否确定 -->
+
+<!-- 注意事项1：属性值只能是单一字段的绑定，如果“”内有文字，就不可以了  -->
+<!-- <input type="text" model:value="值为{{value}}" /> -->
+
+<!-- 注意事项2：属性值不能写数据路径，也就是不支持对象和数组  -->
+<!-- <input type="text" model:value="值为{{obj.value}}" />  -->
+
+<!-- 如果需要列表渲染，需要wx:for属性  -->
+<!-- 属性值需要使用双大括号进行包裹，  -->
+<!-- 每一项的变量名默认是item  -->
+<!-- 每一项下标的变量名默认是Index  -->
+<view wx:for="{{numList}}"> {{item}} - {{index}} </view>
+<view wx:for="{{obj}}"> {{item}} - {{index}} </view>

@@ -45,13 +45,21 @@ Page({
 
 
       //修改数组元素
-      this.setData({
-        'list[1]':6,
-        'lists[0].name':"lax"
-      })
+      // this.setData({
+      //   'list[1]':6,
+      //   'lists[0].name':"lax"
+      // })
 
 
       //删除数组元素
+
+      //splice(从哪开始删除，删除数量多少)
+      // this.data.list.splice(1,1)
+      // this.setData({
+      //   list:this.data.list
+      // })
+
+      
     },
 
     //更新UserInfo

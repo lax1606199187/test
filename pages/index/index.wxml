@@ -38,7 +38,7 @@
     </navigator>
   </view>
   <view>
-    <navigator url="/pages/cates/cates?id=10&num=lax">
+    <navigator url="/pages/test1/test1">
       <image src="/assets/tb/微信图片_20250329213141.jpg" mode=""/>
       <text>功能三</text>
     </navigator>
