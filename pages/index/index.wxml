@@ -50,7 +50,7 @@
     </navigator>
   </view>
   <view>
-    <navigator url="/pages/cates/cates?id=10&num=lax">
+    <navigator url="/pages/test3/test3">
       <image src="/assets/tb/微信图片_20250329213122.jpg" mode=""/>
       <text>功能五</text>
     </navigator>
@@ -79,6 +79,9 @@
   </view>
 </scroll-view>
 </view>
+
+
+
 
 
 <!-- <scroll-view class="scroll-y" scroll-y>
