@@ -1,3 +1,29 @@
 
 <view>{{a}}</view>
 <button type="warn" bindtap="getData" >获取参数</button>
+
+<view class="line"></view>
+
+<button type="warn" bindtap="getDatas" >加载</button>
+
+<view class="line"></view>
+
+<button type="primary" bindtap="delHandler" >删除商品</button>
+
+<view class="line"></view>
+<view class="testButton">
+  <button size="mini" plain="" type="warn" bind:tap="setStorage">存储</button>
+  <button size="mini" plain="" type="primary" bind:tap="getStorage">获取</button>
+  <button size="mini" plain="" type="warn" bind:tap="removeStorage">删除</button>
+  <button size="mini" plain="" type="primary" bind:tap="clearStorage">清空</button>
+</view>
+
+<view class="line"></view>
+<view class="line"></view>
+<view class="test">
+  <button plain="" type="warn" bind:tap="navigateTo">navigateTo</button>
+  <button plain="" type="primary" bind:tap="redirectTo">redirectTo</button>
+  <button plain="" type="warn" bind:tap="switchTab">switchTab</button>
+  <button plain="" type="primary" bind:tap="reLaunch">reLaunch</button>
+  <button plain="" type="warn" bind:tap="navigateBack">navigateBack</button>
+</view>

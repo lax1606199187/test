@@ -15,3 +15,6 @@
   <!-- 使用data-的形式进行事件传参  -->
   <button bind:tap="btnHandler" data-id="2" data-name="xx">按钮</button>
 </view>
+
+<view class="line"></view>
+<button plain="" type="warn" bind:tap="navigateBack">navigateBack</button>

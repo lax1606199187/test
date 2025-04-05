@@ -21,6 +21,15 @@ Page({
     console.log(event)
   },
 
+  //关闭当前页面，默认返回上一页，或者返回多极页面
+  navigateBack(){
+    wx.navigateBack({
+      delta:1
+    })
+  }, 
+
+
+
   /**
    * 页面的初始数据
    */
