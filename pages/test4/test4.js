@@ -25,5 +25,16 @@ Page({
       wx.hideLoading()
 
     },1500)
+  },
+
+  //监听用户下拉刷新
+  onPullDownRefresh(){
+    this.setData({
+      numList:[1,2,3]
+    })
+    if(this.data.numList.length===3){
+      console.log('已经重置')
+      wx.stopPullDownRefresh()
+    }
   }
 })
