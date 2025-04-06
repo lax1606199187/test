@@ -55,6 +55,12 @@
       <text>功能五</text>
     </navigator>
   </view>
+  <view>
+    <navigator url="/pages/test4/test4">
+      <image src="/assets/tb/微信图片_20250329213122.jpg" mode=""/>
+      <text>功能六</text>
+    </navigator>
+  </view>
 </view>
 <!-- 推荐商品 -->
 <view class="good-nav">
