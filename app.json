@@ -9,7 +9,9 @@
     "pages/test1/test1",
     "pages/test2/test2",
     "pages/test3/test3",
-    "pages/test4/test4"
+    "pages/test4/test4",
+    "pages/test5/test5",
+    "pages/test6/test6"
   ],
   "window": {
  "navigationBarTitleText": "卢傲璇的测试小程序",
@@ -32,14 +34,30 @@
     "selectedIconPath": "/assets/icons8-文件-49.png"
     },
     {
-      "text": "文件",
+      "text": "组件",
       "pagePath": "pages/test4/test4",
       "iconPath": "/assets/icons8-工作-48.png",
       "selectedIconPath": "/assets/icons8-文件-49.png"
-      }
+    },
+    {
+      "text": "下拉",
+      "pagePath": "pages/test5/test5",
+      "iconPath": "/assets/icons8-工作-48.png",
+      "selectedIconPath": "/assets/icons8-文件-49.png"
+    },
+    {
+      "text": "数据监听",
+      "pagePath": "pages/test6/test6",
+      "iconPath": "/assets/icons8-工作-48.png",
+      "selectedIconPath": "/assets/icons8-文件-49.png"
+    }
   ]
 },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "custom-checkbox":"./components/custom-checkbox/custom-checkbox",
+    "custom04":"./components/custom04/custom04"
+  }
 }

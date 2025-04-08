@@ -1,0 +1,10 @@
+<!--components/custom-checkbox/custom-checkbox.wxml-->
+<!-- <text>我是自定义组件</text> -->
+<view class="custom-checkbox-container">
+  <view class="custom-checkbox-box">
+    <checkbox checked="{{isChecked}}" bind:tap="updateChecked" />
+    <view>
+      <text>{{label}}</text>
+    </view>
+  </view>
+</view>
