@@ -1,6 +1,6 @@
 
 {
-  "entryPagePath": "pages/index/index",
+  "entryPagePath": "pages/index/index", 
   "pages": [
     "pages/index/index",
     "pages/list/list",
@@ -13,8 +13,9 @@
     "pages/test5/test5",
     "pages/test6/test6"
   ],
+  
   "window": {
- "navigationBarTitleText": "卢傲璇的测试小程序",
+ "navigationBarTitleText": "清石装饰",
   "navigationBarBackgroundColor": "#CCE8CF",
   "enablePullDownRefresh": true,
   "backgroundColor": "#efefef"

@@ -2,7 +2,7 @@
      position 控制文本显示的位置
 -->
 
-<custom-checkbox label="我已阅读并同意 用户协议 和 隐私协议" position="right"/>
+<custom-checkbox label="我已阅读并同意 用户协议 和 隐私协议" position="right" checked="{{isChecked}}"/>
 
 <view class="line"></view>
 

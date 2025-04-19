@@ -1,8 +1,20 @@
 <!-- view小程序提供的容器组件，可以直接当做div使用即可  -->
 <!-- 轮播图区域  -->
 <view class="swiper">
-  <!-- autoplay：自动轮播，interval：轮播间隔时长，indicator-dots:展示页数小圆点，indicator-color：小圆点的颜色，indicator-active-color：设置当前小圆点颜色,circular:最后一张结束直接到第一张   -->
+  <!-- 
+  swiper:定义轮播图，
+  autoplay：自动轮播，
+  interval：轮播间隔时长，
+  indicator-dots:展示页数小圆点，
+  indicator-color：小圆点的颜色，
+  indicator-active-color：设置当前小圆点颜色,
+  circular:最后一张结束直接到第一张   -->
+  
   <swiper autoplay="true" interval="2000" indicator-dots indicator-color="#fff" indicator-active-color="#CCE8CF" circular>
+    <swiper-item>
+      <!--show-menu-by-longpress:长按图片生成菜单，如果是二维码，也会识别 -->
+      <image src="/assets/注册供应商账号二维码.png" show-menu-by-longpress></image>
+    </swiper-item>
     <swiper-item>
       <image src="/assets/微信图片_20250329201812.jpg"></image>
     </swiper-item>

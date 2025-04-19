@@ -36,14 +36,16 @@ page {
     font-size: 24rpx;
   }
 }
-
+//定义轮播图的样式
 //border-radius：设置圆角效果角度
 .swiper{
   border-radius: 15rpx;
   overflow: hidden;
+  //.swiper 轮播图滑块容器组件，其中只能放置 swiper-item
   swiper{
     height: 360rpx;
     background-color: skyblue;
+    //swiper-item 只能放在swiper中，宽高自动设置100%，代表swiper中的每一项
     swiper-item{
       //&在Sass中表示父选择器，应用的意思
       // &:first-child{
